@@ -10,7 +10,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src/'),
       '@components': path.resolve(__dirname, './src/components/'),
       '@services': path.resolve(__dirname, './src/services/'),
-      '@redux': path.resolve(__dirname, './src/redux/'),
+      '@reducer': path.resolve(__dirname, './src/reducer/'),
       '@context': path.resolve(__dirname, './src/context/'),
       '@hooks': path.resolve(__dirname, './src/hooks/'),
       '@types': path.resolve(__dirname, './src/types'),

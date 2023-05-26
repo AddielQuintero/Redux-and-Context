@@ -1,8 +1,8 @@
-import { REMOVE_SPARKLE } from '@redux'
-import { useDispatch } from 'react-redux'
+import { useApp } from '@context'
+import { REMOVE_SPARKLE } from '@types'
 
 export const Remover = () => {
-  const dispatch = useDispatch()
+  const { dispatch } = useApp()
   const handleOnclick = () => {
     dispatch({ type: REMOVE_SPARKLE })
   }

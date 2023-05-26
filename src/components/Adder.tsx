@@ -1,8 +1,8 @@
-import { useDispatch } from 'react-redux'
-import { ADD_SPARKLE } from '@redux'
+import { useApp } from '@context'
+import { ADD_SPARKLE } from '@types'
 
 export const Adder = () => {
-  const dispatch = useDispatch()
+  const { dispatch } = useApp()
 
   const handleOnclick = () => {
     dispatch({ type: ADD_SPARKLE })

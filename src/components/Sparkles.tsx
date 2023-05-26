@@ -1,9 +1,8 @@
-import { State } from '@redux'
-import { useSelector } from 'react-redux'
+import { useApp } from '@context'
 
 export const Sparkles = () => {
-  const sparkles = useSelector((state: State) => state.sparkles)
-  const sparklesArray = Array(sparkles).fill('✨')
+  const { state } = useApp()
+  const sparklesArray = Array(state.sparkles).fill('✨')
   console.log('Render Sparkles...')
 
   return <p>{sparklesArray}</p>

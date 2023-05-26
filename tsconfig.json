@@ -25,7 +25,7 @@
       "@/*": ["./src/*", "./dist/*", ""],
       "@components": ["src/components/"],
       "@services": ["src/services/"],
-      "@redux": ["src/redux/"],
+      "@reducer": ["src/reducer/"],
       "@context": ["src/context/"],
       "@hooks": ["src/hooks/"],
       "@types": ["src/types/"],

@@ -1,11 +1,8 @@
 // reducer
-import { ADD_SPARKLE, REMOVE_SPARKLE, State, Action } from '@redux'
+import { ADD_SPARKLE, REMOVE_SPARKLE, State, Action } from '@types'
 
-const initialState = {
-  sparkles: 1,
-}
 
-export const SparklesReducer = (state: State = initialState, action: Action): State => {
+export const SparklesReducer = (state: State , action: Action): State => {
   const actions = {
     [ADD_SPARKLE]: () => ({ ...state, sparkles: state.sparkles + 1 }),
     [REMOVE_SPARKLE]: () => ({ ...state, sparkles: state.sparkles >= 1 ? state.sparkles - 1 : 0 }),

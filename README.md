@@ -1,4 +1,4 @@
-## React Example Redux
+## React Example Context with reducer
 
 This is a [React](https://react.dev/) project bootstrapped with [`npm create vite@latest`](https://vitejs.dev/), [Typescript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/) to implement a navigation system in a React.js application.
 
